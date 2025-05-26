@@ -1,6 +1,6 @@
 # 📊 Análise Exploratória de Dados do E-commerce Olist 🛍️
 
-Bem-vindo à análise exploratória de dados do dataset público da Olist! Este projeto tem como objetivo investigar os dados de vendas de um grande e-commerce brasileiro para extrair insights sobre tendências de vendas, desempenho de produtos, comportamento de clientes e distribuição geográfica das operações.
+Bem-vindo à análise exploratória de dados do dataset público da Olist! Este projeto tem como objetivo investigar os dados de vendas de um grande e-commerce brasileiro para extrair dados sobre tendências de vendas, desempenho de produtos, comportamento de clientes e distribuição geográfica das operações.
 
 ## 🎯 Objetivos da Análise
 * Entender a evolução das vendas e do **ticket médio** ao longo do tempo. O ticket médio é um indicador importante que representa o valor médio gasto por cliente em cada pedido.
@@ -44,7 +44,7 @@ O repositório está organizado da seguinte forma:
 * `notebooks/` (ou os nomes dos seus arquivos `.ipynb` se estiverem na raiz):
     * `01_exploracao_inicial.ipynb`: Notebook com a exploração inicial de cada tabela do dataset.
     * `02_limpeza_dados.ipynb`: Notebook detalhando o processo de limpeza, pré-processamento e junção das tabelas.
-    * `03_analise_exploratoria.ipynb`: Notebook com a análise exploratória de dados (EDA) e a geração dos insights e visualizações.
+    * `03_analise_exploratoria.ipynb`: Notebook com a análise exploratória de dados (EDA) e a geração dos dados e visualizações.
 * `visualizacoes/`: Contém os gráficos gerados durante a EDA e salvos como arquivos de imagem (`.png`).
 * `requirements.txt`: Arquivo listando as dependências de bibliotecas Python do projeto (vamos criar este arquivo ao final).
 
@@ -67,13 +67,13 @@ O projeto foi desenvolvido seguindo as seguintes etapas principais:
     * Criação de um DataFrame consolidado (`df_merged`) através da junção progressiva das tabelas individuais limpas, utilizando as chaves apropriadas (`order_id`, `product_id`, `customer_id`, `seller_id`). Foram realizados merges para integrar dados de pedidos, itens, produtos, clientes, vendedores, informações de pagamento agregadas e avaliações.
 
 4.  **Análise Exploratória de Dados (EDA):**
-    * Extração de insights a partir do DataFrame consolidado, focando em:
+    * Extração de dados a partir do DataFrame consolidado, focando em:
         * Tendências temporais de vendas (volume de pedidos, receita total e ticket médio mensal).
         * Desempenho das categorias de produtos (por receita, volume de itens vendidos e preço médio por item).
         * Distribuição geográfica da receita gerada pelos clientes (por estado e cidade).
     * Geração de visualizações (gráficos de linha e barras) para ilust
 
-## 💡 Principais Achados e Insights da Análise
+## 💡 Principais Achados e dados da Análise
 
 Nesta seção, apresentamos as descobertas mais relevantes obtidas através da análise exploratória dos dados do e-commerce Olist.
 
@@ -142,13 +142,13 @@ Todo o processo de análise, desde a exploração inicial dos dados, passando pe
 
 * **`01_exploracao_inicial.ipynb`**: Contém a primeira olhada em cada um dos arquivos do dataset, verificando estrutura, tipos de dados e informações básicas.
 * **`02_limpeza_dados.ipynb`**: Detalha todas as etapas de limpeza de dados (tratamento de valores ausentes, correção de tipos, tratamento de anomalias) e o processo de junção das diversas tabelas para a criação do DataFrame consolidado (`df_merged`).
-* **`03_analise_exploratoria.ipynb`**: Apresenta a análise exploratória de dados (EDA) realizada sobre o DataFrame consolidado, incluindo a geração de todos os gráficos e a extração dos insights discutidos.
+* **`03_analise_exploratoria.ipynb`**: Apresenta a análise exploratória de dados (EDA) realizada sobre o DataFrame consolidado, incluindo a geração de todos os gráficos e a extração dos dados discutidos.
 
 Sinta-se à vontade para explorar os notebooks para um entendimento completo da metodologia aplicada.
 
 ## 🏁 Conclusões
 
-Esta análise exploratória do dataset da Olist permitiu extrair diversos insights valiosos sobre a operação de um grande e-commerce brasileiro. As principais conclusões incluem:
+Esta análise exploratória do dataset da Olist permitiu extrair diversos dados valiosos sobre a operação de um grande e-commerce brasileiro. As principais conclusões incluem:
 
 * 📈 **Crescimento Significativo:** O e-commerce demonstrou uma clara trajetória de crescimento ao longo do período analisado (2017-2018), tanto em volume de pedidos quanto em receita, após um início mais modesto em 2016.
 * 💰 **Concentração de Receita:** Há uma forte concentração geográfica da receita no estado de São Paulo e na região Sudeste, com as grandes capitais liderando o consumo.
@@ -160,7 +160,7 @@ Este projeto demonstra a aplicação prática de técnicas de análise de dados 
 
 ## 🚀 Possíveis Próximos Passos / Análises Futuras
 
-Embora esta análise tenha fornecido muitos insights, existem diversas oportunidades para aprofundamento e expansão do projeto:
+Embora esta análise tenha fornecido muitos dados, existem diversas oportunidades para aprofundamento e expansão do projeto:
 
 * **Análise de Sentimento:** Aplicar técnicas de Processamento de Linguagem Natural (NLP) nos comentários textuais das avaliações (`review_comment_message`) para obter uma compreensão mais qualitativa da satisfação do cliente.
 * **Segmentação de Clientes (RFM):** Criar segmentos de clientes com base em seu comportamento de compra (Recência, Frequência, Valor Monetário) para direcionar estratégias de marketing personalizadas.
