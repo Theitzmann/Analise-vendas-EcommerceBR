@@ -111,7 +111,6 @@ Em termos de volume, `bed_bath_table`, `health_beauty` e `sports_leisure` são a
 **Categorias por Preço Médio por Item:**
 Categorias como `computers` e `small_appliances_home_oven_and_coffee` se destacam por terem os itens com maior preço médio. Por outro lado, a categoria `electronics` apresentou um preço médio surpreendentemente baixo.
 ![Top 10 Categorias por Maior Preço Médio por Item](visualizacoes/06_top10_categorias_maior_preco_medio.png)
-*Se você salvou o gráfico de menor preço médio, pode adicioná-lo aqui também:*
 *![Top 10 Categorias por Menor Preço Médio por Item](visualizacoes/06b_top10_categorias_menor_preco_medio.png)*
 
 ---
